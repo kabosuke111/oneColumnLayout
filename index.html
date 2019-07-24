@@ -22,6 +22,9 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/ress.css">
+<link rel="icon" href="images/icon.gif">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One|Sawarabi+Mincho&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 </head>
@@ -34,17 +37,21 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <header id="header">
-    <h1 class="site__title"></h1>
-    <nav class="site__nav">
-        <ul class="site__ul">
-            <li><a class="site__link" href=""></a></li>
-            <li><a class="site__link" href=""></a></li>
-            <li><a class="site__link" href=""></a></li>
-            <li><a class="site__link" href=""></a></li>
-            <li><a class="site__link" href=""></a></li>
-            <li><a class="site__link" href=""></a></li>
-        </ul>
-    </nav>    
+    <section class="header__section clearfix">
+        <h1 class="site__title">Portfolio Site</h1>
+        <nav class="site__nav">
+            <ul class="site__ul">
+                <li><a class="site__link" href="">HOME</a></li>
+                <li><a class="site__link" href="">ABOUT</a></li>
+                <li><a class="site__link" href="">WORKS</a></li>
+                <li><a class="site__link" href="">SKILL</a></li>
+                <li><a class="site__link" href="">CONTENT</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="site__caption">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+    </div>
 </header>
 
 <!--//////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -56,35 +63,138 @@
 
 <!--.................................................................................................
 
-                                                記事
+                                                記事1
 
 .................................................................................................-->
-    <article id="">
-        <h2 class="contents-title"></h2>
+    <article class="article main1">
+        <header class="article__header">
+            <h2 class="contents-title">Main Article 1</h2>
+            <p class="header__caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        </header>
         
-        <!--:::::::::::::::::::::::::::::::　 　セクション1　 　:::::::::::::::::::::::::::::::-->
-        <section class="">
-            <h3 class="section-title"></h3>
-            <div>
-            
-            </div>
-        </section>
+        <div class="section_group main1">
+            <!--:::::::::::::::::::::::::::::::　 　セクション1　 　:::::::::::::::::::::::::::::::-->
+            <section class="article__section volume1">
+                <h3 class="section-title">Section 1</h3>
+                <div class="volume__wrap">
+                    <p class="volume__caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    </p>
+                    <figure class="volume__image-wrap">
+                        <img class="volume__image" src="images/imageA.jpg" alt="imageA">
+                        <figcaption>ullamco laboris nisi ut aliquip ex ea</figcaption>
+                    </figure>
+                    <ul class="volume__link">
+                        <li><button>記事詳細は<br>こちら</button></li>
+                        <li><button>商品購入は<br>こちら</button></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--:::::::::::::::::::::::::::::::　 　セクション2　 　:::::::::::::::::::::::::::::::-->
+            <section class="article__section volume2">
+                <h3 class="section-title">セクション2</h3>
+                <div class="volume__wrap">
+                    <p class="volume__caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    </p>
+                    <figure class="volume__image-wrap">
+                        <img class="volume__image" src="images/imageA.jpg" alt="imageA">
+                        <figcaption>ullamco laboris nisi ut aliquip ex ea</figcaption>
+                    </figure>
+                    <ul class="volume__link">
+                        <li><button>記事詳細は<br>こちら</button></li>
+                        <li><button>商品購入は<br>こちら</button></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--:::::::::::::::::::::::::::::::　 　セクション2　 　:::::::::::::::::::::::::::::::-->
+            <section class="article__section volume3">
+                <h3 class="section-title">セクション3</h3>
+                <div class="volume__wrap">
+                    <p class="volume__caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    </p>
+                    <figure class="volume__image-wrap">
+                        <img class="volume__image" src="images/imageA.jpg" alt="imageA">
+                        <figcaption>ullamco laboris nisi ut aliquip ex ea</figcaption>
+                    </figure>
+                    <ul class="volume__link">
+                        <li><button>記事詳細は<br>こちら</button></li>
+                        <li><button>商品購入は<br>こちら</button></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </article>
+    
+<!--.................................................................................................
+
+                                                記事2
+
+.................................................................................................-->
+    <article class="article main2">
+        <header class="article__header">
+            <h2 class="contents-title">Main Article 1</h2>
+            <p class="header__caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        </header>
         
-        <!--:::::::::::::::::::::::::::::::　 　セクション2　 　:::::::::::::::::::::::::::::::-->
-        <section class="">
-            <h3 class="section-title"></h3>
-            <div>
-            
-            </div>
-        </section>
-        
-        <!--:::::::::::::::::::::::::::::::　 　セクション2　 　:::::::::::::::::::::::::::::::-->
-        <section class="">
-            <h3 class="section-title"></h3>
-            <div>
-            
-            </div>
-        </section>
+        <div class="section_group main2">
+            <!--:::::::::::::::::::::::::::::::　 　セクション1　 　:::::::::::::::::::::::::::::::-->
+            <section class="article__section volume2">
+                <h3 class="section-title">セクション1</h3>
+                <div class="volume__wrap">
+                    <p class="volume__caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    </p>
+                    <figure class="volume__image-wrap">
+                        <img class="volume__image" src="images/imageA.jpg" alt="imageA">
+                        <figcaption>ullamco laboris nisi ut aliquip ex ea</figcaption>
+                    </figure>
+                    <ul class="volume__link">
+                        <li><button>記事詳細は<br>こちら</button></li>
+                        <li><button>商品購入は<br>こちら</button></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--:::::::::::::::::::::::::::::::　 　セクション2　 　:::::::::::::::::::::::::::::::-->
+            <section class="article__section volume2">
+                <h3 class="section-title">セクション2</h3>
+                <div class="volume__wrap">
+                    <p class="volume__caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    </p>
+                    <figure class="volume__image-wrap">
+                        <img class="volume__image" src="images/imageA.jpg" alt="imageA">
+                        <figcaption>ullamco laboris nisi ut aliquip ex ea</figcaption>
+                    </figure>
+                    <ul class="volume__link">
+                        <li><button>記事詳細は<br>こちら</button></li>
+                        <li><button>商品購入は<br>こちら</button></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--:::::::::::::::::::::::::::::::　 　セクション2　 　:::::::::::::::::::::::::::::::-->
+            <section class="article__section volume3">
+                <h3 class="section-title">セクション3</h3>
+                <div class="volume__wrap">
+                    <p class="volume__caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    </p>
+                    <figure class="volume__image-wrap">
+                        <img class="volume__image" src="images/imageA.jpg" alt="imageA">
+                        <figcaption>ullamco laboris nisi ut aliquip ex ea</figcaption>
+                    </figure>
+                    <ul class="volume__link">
+                        <li><button>記事詳細は<br>こちら</button></li>
+                        <li><button>商品購入は<br>こちら</button></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     </article>
 </main>
 
@@ -94,9 +204,9 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <footer id="footer">
-    <div>
-        <address></address>
-        <small>&copy; 2019</small>
+    <div class="footer__wrap">
+        <address>〒3232-222 do eiusmod tempor</address>
+        <small>nisi ut aliquip&copy; 2019</small>
     </div>
 </footer>
 </div>
